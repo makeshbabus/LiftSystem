@@ -1,0 +1,72 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  margin-top: 20px;
+  max-width: 150px;
+}
+
+.item{
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid black;
+  border-radius: 150px;
+}
+
+.itemSelected{
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid black;
+  border-radius: 150px;
+  background-color: green;
+  color: white;
+}
+
+.item:hover{
+ background-color: blue;
+ color: white;
+ cursor: pointer;
+}
+
+.selectedUp{
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent; 
+  border-right: 50px solid transparent; 
+  border-bottom: 50px solid blue; margin: 2rem;
+  margin: 0 auto;
+}
+
+.selectedDown{
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent; 
+  border-right: 50px solid transparent; 
+  border-top: 50px solid blue; margin: 2rem;
+  margin: 0 auto;
+}
+
+.arrowKeyUp{
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent; 
+  border-right: 50px solid transparent; 
+  border-bottom: 50px solid green; margin: 2rem;
+  margin: 0 auto;
+}
+
+.arrowDown{
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent; 
+  border-right: 50px solid transparent; 
+  border-top: 50px solid green; margin: 2rem;
+  margin: 0 auto;
+}
